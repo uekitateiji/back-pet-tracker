@@ -1,6 +1,6 @@
 $ git clone https://github.com/uekitateiji/back-pet-tracker.git
 
-$ cd backend
+$ cd back-pet-tracker/backend
 
 $ npm install
 

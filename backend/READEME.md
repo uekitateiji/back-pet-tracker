@@ -1,6 +1,6 @@
 $ git clone https://github.com/uekitateiji/back-pet-tracker.git
 
-$ cd laurabeatris.com
+$ cd backend
 
 $ npm install
 

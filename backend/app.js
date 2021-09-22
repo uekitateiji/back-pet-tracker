@@ -3,12 +3,14 @@ const app = express();
 
 const rotaProprietarios = require('./routes/proprietarios');
 const rotaPets = require('./routes/pets');
+const rotaLogin = require('./routes/login');
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.use('/proprietarios', rotaProprietarios);
 app.use('/pets', rotaPets);
+app.use('/login', rotaLogin);
 
 app.use((req, res, next) =>{
     const erro = new Error('Não encontrado');
